@@ -8,4 +8,9 @@ public:
 string name;
 float diameter;
 
-};
+void displaydata () {
+    cout << "my gravity is" << gravity << endl;
+}
+
+
+}
