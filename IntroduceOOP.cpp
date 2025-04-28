@@ -18,8 +18,16 @@ void inputdata(){
     cin >> diameter;
     cout << "my gravity is :";
     cin >> gravity;
-
-
 }
+};
+int main()
+{
+Planet venus ; 
+venus.inputdata();
+cout << "the name is " << venus.name << endl;
+cout << "the diameter is " << venus.diameter << endl;
+
+venus.displaydata();
+
 
 }
