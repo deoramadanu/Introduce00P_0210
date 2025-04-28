@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+class Planet{
+   private:
+            float gravity;
+   public:
+       string name;
+       float diameter;
 
-
-
-    
-}
+};
